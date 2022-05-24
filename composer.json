@@ -4,7 +4,9 @@
   "minimum-stability": "stable",
   "require": {
     "php": "^8.0|^8.1",
-    "yiisoft/yii2": "~2.0.45"
+    "yiisoft/yii2": "~2.0.45",
+    "codex-team/editor.js": "~v2.0.7",
+    "npm-asset/editorjs--editorjs": "@stable"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
