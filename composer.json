@@ -1,0 +1,33 @@
+{
+  "name": "s1lver/yii2-editorjs",
+  "type": "yii2-extension",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0|^8.1",
+    "yiisoft/yii2": "~2.0.45"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "s1lver\\widgets\\": "src/widgets"
+    }
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/s1lver/yii2-editorjs.git"
+    }
+  ]
+}
